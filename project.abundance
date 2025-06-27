@@ -20,8 +20,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.2446524064171123,
-            "y": 0.3132530120481927,
+            "x": 0.26871657754010697,
+            "y": 0.32228915662650603,
             "uniqueID": "07a961a3-22d9-4b22-a582-6b372201feac",
             "ioValues": [
                 {
@@ -34,19 +34,72 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.19184491978609627,
-            "y": 0.7168674698795181,
+            "x": 0.19117647058823528,
+            "y": 0.7108433734939759,
             "uniqueID": "004f4385-a58c-44e9-a3a9-9aab424edf11",
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 0.118
+                    "ioValue": 0.12
                 }
             ],
             "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.4786096256684492,
+            "y": 0.4307228915662651,
+            "uniqueID": "ca7f0c73-7624-41af-a8a9-8f44dd69b4ea",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "Shape 1",
+                    "ioValue": ""
+                }
+            ],
+            "description": "Joins two or more shapes into a single solid by filling in the space between them.",
+            "closedSelection": 0
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.3542780748663102,
+            "y": 0.8463855421686747,
+            "uniqueID": "2e380d70-1bef-401e-8edf-4b50280f20c1",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "004f4385-a58c-44e9-a3a9-9aab424edf11"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "004f4385-a58c-44e9-a3a9-9aab424edf11",
+            "ap2ID": "2e380d70-1bef-401e-8edf-4b50280f20c1"
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
