@@ -16,6 +16,34 @@
             "uniqueID": "76630989-ed18-4ec9-9c51-c78ee1150e29",
             "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.2446524064171123,
+            "y": 0.3132530120481927,
+            "uniqueID": "07a961a3-22d9-4b22-a582-6b372201feac",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 0.28
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.19184491978609627,
+            "y": 0.7168674698795181,
+            "uniqueID": "004f4385-a58c-44e9-a3a9-9aab424edf11",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 0.118
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [],
