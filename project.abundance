@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Length",
-      "ioValue": 10
+      "ioValue": 0.5,
+      "currentEquation": ".5"
     }
   ],
   "topLevel": true,
@@ -26,32 +27,34 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.19726729291204098,
-      "y": 0.6925465838509317,
+      "x": 0.20153714773697695,
+      "y": 0.6987577639751553,
       "uniqueID": "id-148",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 3.3
+          "ioValue": 0.15625,
+          "currentEquation": "5/32"
         }
       ]
     },
     {
       "atomType": "Circle",
-      "x": 0.1853116994022203,
-      "y": 0.40062111801242234,
+      "x": 0.1861656703672075,
+      "y": 0.38819875776397517,
       "uniqueID": "id-149",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 8.5
+          "ioValue": 0.28125,
+          "currentEquation": "9/32"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.3441502988898377,
-      "y": 0.6739130434782609,
+      "x": 0.3432963279248506,
+      "y": 0.7018633540372671,
       "uniqueID": "id-150",
       "ioValues": [
         {
@@ -68,14 +71,15 @@
         },
         {
           "name": "zDist",
-          "ioValue": -4
+          "ioValue": -0.1,
+          "currentEquation": "-.1"
         }
       ]
     },
     {
       "atomType": "Loft",
-      "x": 0.43001707941929973,
-      "y": 0.27298136645962734,
+      "x": 0.4227156276686593,
+      "y": 0.2857142857142857,
       "uniqueID": "id-151",
       "ioValues": [
         {
@@ -93,14 +97,14 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-circle-1.65-0-0-0",
+            "geometry": "move-circle-0.078125-0-0-0",
             "dimension": "2D",
             "tags": [],
             "plane": {
               "origin": [
                 0,
                 0,
-                -4
+                -0.1
               ],
               "xDir": [
                 1,
@@ -120,7 +124,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "circle-4.25",
+            "geometry": "circle-0.140625",
             "dimension": "2D",
             "tags": [],
             "plane": {
@@ -153,8 +157,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.45478223740392826,
-      "y": 0.6487577639751553,
+      "x": 0.5251921434671222,
+      "y": 0.6273291925465838,
       "uniqueID": "id-152",
       "ioValues": [
         {
@@ -163,14 +167,14 @@
         },
         {
           "name": "height",
-          "ioValue": -35
+          "ioValue": 0.5
         }
       ]
     },
     {
       "atomType": "Assembly",
-      "x": 0.6136208368915458,
-      "y": 0.28540372670807457,
+      "x": 0.6088812980358668,
+      "y": 0.3012422360248447,
       "uniqueID": "id-153",
       "name": "Fusion",
       "ioValues": [
@@ -312,6 +316,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-155",
       "ap2ID": "76630989-ed18-4ec9-9c51-c78ee1150e29"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-190",
+      "ap2ID": "id-152"
     }
   ],
   "unitsKey": "Inches",
