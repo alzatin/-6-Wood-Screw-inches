@@ -157,8 +157,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5251921434671222,
-      "y": 0.6273291925465838,
+      "x": 0.49274124679760883,
+      "y": 0.6583850931677019,
       "uniqueID": "id-152",
       "ioValues": [
         {
@@ -167,7 +167,8 @@
         },
         {
           "name": "height",
-          "ioValue": 0.5
+          "ioValue": -0.5,
+          "currentEquation": "-Length"
         }
       ]
     },
@@ -240,30 +241,6 @@
       "selectedColor": "Mauve "
     },
     {
-      "atomType": "Circle",
-      "x": 0.6529035012809565,
-      "y": 0.7574534161490682,
-      "uniqueID": "id-156",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.8498212689901699,
-      "y": 0.6930167597765362,
-      "uniqueID": "id-157",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Input",
       "x": 0.025384615384615384,
       "y": 0.45962732919254656,
@@ -316,11 +293,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-155",
       "ap2ID": "76630989-ed18-4ec9-9c51-c78ee1150e29"
-    },
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-190",
-      "ap2ID": "id-152"
     }
   ],
   "unitsKey": "Inches",
