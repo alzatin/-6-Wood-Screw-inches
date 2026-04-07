@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Length",
-      "ioValue": 0.5,
-      "currentEquation": ".5"
+      "ioValue": 0.5
     }
   ],
   "topLevel": true,
@@ -71,8 +70,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -0.1,
-          "currentEquation": "-.1"
+          "ioValue": -0.1
         }
       ]
     },
@@ -174,8 +172,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6088812980358668,
-      "y": 0.3012422360248447,
+      "x": 0.6147426981919333,
+      "y": 0.3385093167701863,
       "uniqueID": "id-153",
       "name": "Fusion",
       "ioValues": [
@@ -229,8 +227,8 @@
     },
     {
       "atomType": "Color",
-      "x": 0.8232280102476517,
-      "y": 0.3819875776397516,
+      "x": 0.819193324061196,
+      "y": 0.40062111801242234,
       "uniqueID": "id-155",
       "ioValues": [
         {
@@ -243,7 +241,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.45962732919254656,
+      "y": 0.15384615384615385,
       "uniqueID": "id-190",
       "name": "Length"
     }
